@@ -1,12 +1,10 @@
 # My_FOC_v1_code
 
 ### STM32F407-Based PMSM Field-Oriented Control
-
+参考书籍：电机控制算法实战 中信、现代永磁同步电机控制原理及matlab仿真（第二版） 袁雷
+本code为本人日常学习进行的实践练习，还有很多不完善的地方。
+主要针对的是2804无刷电机
 基于 **STM32F407IGT6** 的永磁同步电机（PMSM）磁场定向控制（FOC）学习与开发项目。
-
-本项目使用 STM32CubeMX 配置外设，采用 C 语言和 CMake 组织工程，计划逐步实现电角度校准、Clarke/Park 坐标变换、SVPWM、电流闭环及速度闭环控制。
-
-项目以理解控制原理、独立设计与实际硬件验证为目标。
 
 > **Project Status: Under Development**
 >
