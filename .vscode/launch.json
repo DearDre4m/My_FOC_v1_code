@@ -1,0 +1,33 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "My_FOC (CMSIS-DAP)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/Debug/My_FOC.elf",
+      "device": "STM32F407IGTx",
+
+      "serverpath": "D:/STM32Tools/OpenOCD/bin/openocd.exe",
+      "searchDir": [
+        "D:/STM32Tools/OpenOCD/openocd/scripts"
+      ],
+      "configFiles": [
+        "interface/cmsis-dap.cfg",
+        "target/stm32f4x.cfg"
+      ],
+      "openOCDLaunchCommands": [
+        "adapter speed 1000"
+      ],
+
+      "armToolchainPath": "D:/STM32Tools/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin",
+      "gdbPath": "D:/STM32Tools/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gdb.exe",
+
+      "runToEntryPoint": "main"
+    }
+  ]
+}

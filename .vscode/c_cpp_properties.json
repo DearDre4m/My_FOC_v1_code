@@ -1,0 +1,20 @@
+
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "compilerPath": "D:/STM32Tools/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe",
+      "compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F407xx"
+      ],
+      "cStandard": "c11",
+      "intelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}
