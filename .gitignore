@@ -1,0 +1,21 @@
+
+# CMake build outputs
+build/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Compiled firmware
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+
+# Temporary files
+*.log
+*.tmp
+
+# Local editor cache
+.vscode/.cache/
